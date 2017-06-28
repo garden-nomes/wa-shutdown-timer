@@ -2,8 +2,9 @@
 
 body {
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetical', sans-serif;
-  padding: 5rem;
-  font-size: 5rem;
+  padding: 4rem;
+  font-size: 4rem;
+  line-height: 4rem;
   color: #000;
 }
 
