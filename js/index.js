@@ -13,8 +13,9 @@ var update = function () {
 
   if (duration > 0) {
     var string =
-      format(duration.years(), 'years') + 
-      format(duration.days(), 'days') + 
+      format(duration.years(), 'years') +
+      format(duration.months(), 'months') +
+      format(duration.days(), 'days') +
       format(duration.hours(), 'hours') +
       format(duration.minutes(), 'minutes') +
       format(duration.seconds(), 'seconds') +
