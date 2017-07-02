@@ -3,7 +3,9 @@
 var shutdown = moment("2019-07-01T00:00:00-07:00");
 
 var format = function (num, str) {
-  return num > 0 ? '<b>' + num + ' ' + str + '</b>, ' : '';
+  return num > 0
+    ? '<b>' + num + ' ' + str + '</b>, '
+    : '';
 }
 
 var update = function () {
