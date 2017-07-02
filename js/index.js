@@ -1,6 +1,6 @@
 'use strict';
 
-var shutdown = moment("2017-07-01T00:00:00-07:00");
+var shutdown = moment("2019-07-01T00:00:00-07:00");
 
 var update = function () {
   var duration = moment.duration(shutdown.diff(moment()));
